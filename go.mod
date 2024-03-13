@@ -1,4 +1,4 @@
-module github.com/chaosblade-io/chaosblade-exec-docker
+module github.com/deepsola/chaosblade-exec-docker
 
 go 1.13
 
