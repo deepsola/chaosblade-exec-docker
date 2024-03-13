@@ -23,7 +23,7 @@ import (
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
 	"github.com/chaosblade-io/chaosblade-spec-go/util"
 
-	"github.com/chaosblade-io/chaosblade-exec-docker/exec"
+	"github.com/deepsola/chaosblade-exec-docker/exec"
 )
 
 // main creates a yaml file of the experiments in the project
