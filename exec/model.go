@@ -19,14 +19,14 @@ package exec
 import (
 	"fmt"
 
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/cpu"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/disk"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/file"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/mem"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/network"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/network/tc"
-	"github.com/chaosblade-io/chaosblade-exec-os/exec/process"
 	"github.com/chaosblade-io/chaosblade-spec-go/spec"
+	"github.com/deepsola/chaosblade-exec-os/exec/cpu"
+	"github.com/deepsola/chaosblade-exec-os/exec/disk"
+	"github.com/deepsola/chaosblade-exec-os/exec/file"
+	"github.com/deepsola/chaosblade-exec-os/exec/mem"
+	"github.com/deepsola/chaosblade-exec-os/exec/network"
+	"github.com/deepsola/chaosblade-exec-os/exec/network/tc"
+	"github.com/deepsola/chaosblade-exec-os/exec/process"
 )
 
 type ResourceExpModelSpec interface {
